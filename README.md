@@ -1,6 +1,7 @@
 # House Temperature Control System using Raspberry PI and Java.
 
-:: DESCRIPTION__
+::: DESCRIPTION
+
 The project tries to solve a problem of not being able to control a house temperature when householders are away.
 
 The project undertaken on controlling a house temperature using Raspberry Pi and Java remotely involves many aspects, from software design, implementation and testing, to hardware components and their assembling, making a physical model, and building a MySQL database for storing and passing retrieved measurements. 
@@ -30,7 +31,8 @@ The system is different to other existing systems, as it:
 -	displays real-time temperatures not only in fields, but also on charts
 
 
-:: THE REPOSITORY__
+::: THE REPOSITORY
+
 The repository consists of:
 -   deviceProgram - the Device program (to be implemented on Raspberry Pi)
 -   userGUIprogram - the User GUI program (to be implemented on a remote computer)
@@ -40,7 +42,8 @@ The repository consists of:
 -   bashScriptForRaspberryPi - a bash script required for an automatic loading of the Device Program, without human need, executed at the boot time, after loading a Raspberry Pi's graphical user interface
 
 
-:: FUTURE DEVELOPMENT__
+::: FUTURE DEVELOPMENT
+
 In terms of future development, there are many aspects that can be considered. First of the things might be to calibrate the temperature readings, to make sure the correct values are measured. 
 
 Moreover, the system could incorporate additional sensors, such as humidity, pressure, smoke, and cameras, that would control a whole house and alarm its users by sending a short text message.
@@ -52,7 +55,8 @@ Also, an additional system could be created, to analyse data or link the databas
 Finally, a complete implementation of Strategy and State patterns would be implemented, to make the system more elastic for changes. Therefore, there would not be a very difficult problem to implement other types of sensors in the future.
 
 
-:: HELP__
+::: HELP
+
 To reach a full system functionality the below steps are required:
 -   pre-installed NetBeans 8.1 to open project (preferably)
 -   implementation of a Device Program on Raspberry Pi
