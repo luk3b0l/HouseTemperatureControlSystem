@@ -29,12 +29,40 @@ The system is different to other existing systems, as it:
 -	has a sensor for reading outdoor temperatures (instead of relying on weather forecast from the Internet, improving accuracy)
 -	displays real-time temperatures not only in fields, but also on charts
 
+System look
+
+## 1. Device Program running
+![Device Program running](system_pictures/software/1-runningDeviceProgram.jpg)
+
+## 2. User GUI v1.6 running
+![UserGUI 1.6 running](system_pictures/software/2-userGUIv1.6running.jpg)
+
+## 3. User GUI v1.6 FULL AUTO option
+![UserGUI 1.6 FULL AUTO](system_pictures/software/3-userGUIv1.6FULLAUTO.jpg)
+
+## 4. User GUI v1.6 About
+![UserGUI 1.6 About](system_pictures/software/4-userGUIv1.6About.jpg)
+
+## 5. User GUI v1.7 running on Linux Ubuntu
+![UserGUI 1.7 running on Ubuntu](system_pictures/software/5-userGUIv1.7runningOnUbuntu.jpg)
+
+## 6. User GUI v1.7 - MANUAL heating option set
+![UserGUI 1.7 MANUAL heating](system_pictures/software/6-userGUIv1.7heatingMANUAL.jpg)
+
+## 7. User GUI v1.7 SEMI AUTO heating option set
+![UserGUI 1.7 SEMI AUTO heating](system_pictures/software/7-userGUIv1.7heatingSEMIAUTO.jpg)
+
+## 8. User GUI v1.7 FULL AUTO heating option set
+![UserGUI 1.7 FULL AUTO heating](system_pictures/software/8-userGUIv1.7heatingFULLAUTO.jpg)
+
+## 9. User GUI v1.7 About --> Info
+![UserGUI 1.7 About/Info](system_pictures/software/9-userGUIv1.7AboutInfo.jpg)
 
 <b>::: THE REPOSITORY</b>    
 The repository consists of:
 -   deviceProgram - the Device program (to be implemented on Raspberry Pi)
 -   userGUIprogram - the User GUI program (to be implemented on a remote computer)
--   pictures - pictures of the working system
+-   system_pictures - pictures of the working system
 -   database - a database file (*.sql) for further implementation in your database
 -   other - the system's Use Case Diagram, UML diagram, full system overview diagram, Fritzing hardware model (including Raspberry Pi 2 Model B, two DS18B20 waterproof temperature sensors (with a 4.7kΩ resistor), and red LED(with a 330Ω resistor)).
 -   bashScriptForRaspberryPi - a bash script required for an automatic loading of the Device Program, without human need, executed at the boot time, after loading a Raspberry Pi's graphical user interface
