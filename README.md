@@ -15,10 +15,10 @@ The user GUI program main functionality is to:
 -	retrieve sensor data from database in real time
 -	set heating status
 -	display data on Time Series Chart, Bar Chart (created using Strategy design pattern)
--	control heating using three core options:
-    o MANUAL
-    o SEMI AUTO
-    o FULL AUTO
+-	control heating using three core options: </br>
+    o MANUAL </br> 
+    o SEMI AUTO </br>
+    o FULL AUTO </br>
 
 The device program main functionality is to:
 -	retrieve sensor data and send them to a database
