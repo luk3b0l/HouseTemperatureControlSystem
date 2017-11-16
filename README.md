@@ -32,41 +32,41 @@ The system is different to other existing systems, as it:
 
 ## :: System look (software):
 ### 1. Device Program running
-![Device Program running](system_pictures/software/1-runningDeviceProgram.jpg)
+![Device Program running](systemPictures/software/1-runningDeviceProgram.jpg)
 
 ### 2. User GUI v1.6 running
-![UserGUI 1.6 running](system_pictures/software/2-userGUIv1.6running.jpg)
+![UserGUI 1.6 running](systemPictures/software/2-userGUIv1.6running.jpg)
 
 ### 3. User GUI v1.6 FULL AUTO option
-![UserGUI 1.6 FULL AUTO](system_pictures/software/3-userGUIv1.6FULLAUTO.jpg)
+![UserGUI 1.6 FULL AUTO](systemPictures/software/3-userGUIv1.6FULLAUTO.jpg)
 
 ### 4. User GUI v1.6 About
-![UserGUI 1.6 About](system_pictures/software/4-userGUIv1.6About.jpg)
+![UserGUI 1.6 About](systemPictures/software/4-userGUIv1.6About.jpg)
 
 ### 5. User GUI v1.7 running on Linux Ubuntu
-![UserGUI 1.7 running on Ubuntu](system_pictures/software/5-userGUIv1.7runningOnUbuntu.jpg)
+![UserGUI 1.7 running on Ubuntu](systemPictures/software/5-userGUIv1.7runningOnUbuntu.jpg)
 
 ### 6. User GUI v1.7 - MANUAL heating option set
-![UserGUI 1.7 MANUAL heating](system_pictures/software/6-userGUIv1.7heatingMANUAL.jpg)
+![UserGUI 1.7 MANUAL heating](systemPictures/software/6-userGUIv1.7heatingMANUAL.jpg)
 
 ### 7. User GUI v1.7 SEMI AUTO heating option set
-![UserGUI 1.7 SEMI AUTO heating](system_pictures/software/7-userGUIv1.7heatingSEMIAUTO.jpg)
+![UserGUI 1.7 SEMI AUTO heating](systemPictures/software/7-userGUIv1.7heatingSEMIAUTO.jpg)
 
 ### 8. User GUI v1.7 FULL AUTO heating option set
-![UserGUI 1.7 FULL AUTO heating](system_pictures/software/8-userGUIv1.7heatingFULLAUTO.jpg)
+![UserGUI 1.7 FULL AUTO heating](systemPictures/software/8-userGUIv1.7heatingFULLAUTO.jpg)
 
 ### 9. User GUI v1.7 About --> Info
-![UserGUI 1.7 About/Info](system_pictures/software/9-userGUIv1.7AboutInfo.jpg)
+![UserGUI 1.7 About/Info](systemPictures/software/9-userGUIv1.7AboutInfo.jpg)
 
 ## :: System look (hardware):
 ### 1. Complete hardware setup
-![Complete hardware setup](system_pictures/hardware/1-allHardwareCompleteConfiguration.jpg)
+![Complete hardware setup](systemPictures/hardware/1-allHardwareCompleteConfiguration.jpg)
 
 ### 2. Hardware with LED On
-![Hardware with LED On](system_pictures/hardware/2-hardwareWithLEDOn.jpg)
+![Hardware with LED On](systemPictures/hardware/2-hardwareWithLEDOn.jpg)
 
 ### 3. Testing waterproof sensors
-![Testing waterproof sensors](system_pictures/hardware/3-hardwareTestingWithWaterproofSensors.jpg)
+![Testing waterproof sensors](systemPictures/hardware/3-hardwareTestingWithWaterproofSensors.jpg)
 
 <b>::: THE REPOSITORY</b>    
 The repository consists of:
