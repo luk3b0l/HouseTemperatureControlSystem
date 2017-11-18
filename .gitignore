@@ -1,3 +1,6 @@
-HouseTemperatureControlSystem/userGUIprogram/HouseDataMonitorSystem/nbproject/private/
-HouseTemperatureControlSystem/userGUIprogram/HouseDataMonitorSystem/build/
-HouseTemperatureControlSystem/userGUIprogram/HouseDataMonitorSystem/dist/
+/userGUIprogram/HouseDataMonitorSystem/nbproject/private/**
+/userGUIprogram/HouseDataMonitorSystem/build/**
+/userGUIprogram/HouseDataMonitorSystem/dist/**
+/deviceProgram/HouseDataMonitor-DataIO/nbproject/private/**
+/deviceProgram/HouseDataMonitor-DataIO/build/**
+/deviceProgram/HouseDataMonitor-DataIO/dist/**
