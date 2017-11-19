@@ -1,6 +1,16 @@
-# House Temperature Control System using Raspberry PI and Java.
+# House Temperature Control System using Raspberry PI and Java
 
-<b>::: DESCRIPTION</b>    
+## Contents
+
+1. Project Description   
+2. System Look (software)  
+3. System Look (hardware)  
+4. The Repository  
+5. Future Development  
+6. Help  
+
+
+## 1. Project Description 
 The project tries to solve a problem of not being able to control a house temperature when householders are away.
 
 The project undertaken on controlling a house temperature using Raspberry Pi and Java remotely involves many aspects, from software design, implementation and testing, to hardware components and their assembling, making a physical model, and building a MySQL database for storing and passing retrieved measurements. 
@@ -30,45 +40,48 @@ The system is different to other existing systems, as it:
 -	displays real-time temperatures not only in fields, but also on charts
 
 
-## :: System look (software):
-### 1. Device Program running
+## 2. System Look (software)
+
+### 2.1 Device Program running
 ![Device Program running](systemPictures/software/1-runningDeviceProgram.jpg)
 
-### 2. User GUI v1.6 running
+### 2.2 User GUI v1.6 running
 ![UserGUI 1.6 running](systemPictures/software/2-userGUIv1.6running.jpg)
 
-### 3. User GUI v1.6 FULL AUTO option
+### 2.3 User GUI v1.6 FULL AUTO option
 ![UserGUI 1.6 FULL AUTO](systemPictures/software/3-userGUIv1.6FULLAUTO.jpg)
 
-### 4. User GUI v1.6 About
+### 2.4 User GUI v1.6 About
 ![UserGUI 1.6 About](systemPictures/software/4-userGUIv1.6About.jpg)
 
-### 5. User GUI v1.7 running on Linux Ubuntu
+### 2.5 User GUI v1.7 running on Linux Ubuntu
 ![UserGUI 1.7 running on Ubuntu](systemPictures/software/5-userGUIv1.7runningOnUbuntu.jpg)
 
-### 6. User GUI v1.7 - MANUAL heating option set
+### 2.6 User GUI v1.7 - MANUAL heating option set
 ![UserGUI 1.7 MANUAL heating](systemPictures/software/6-userGUIv1.7heatingMANUAL.jpg)
 
-### 7. User GUI v1.7 SEMI AUTO heating option set
+### 2.7 User GUI v1.7 SEMI AUTO heating option set
 ![UserGUI 1.7 SEMI AUTO heating](systemPictures/software/7-userGUIv1.7heatingSEMIAUTO.jpg)
 
-### 8. User GUI v1.7 FULL AUTO heating option set
+### 2.8 User GUI v1.7 FULL AUTO heating option set
 ![UserGUI 1.7 FULL AUTO heating](systemPictures/software/8-userGUIv1.7heatingFULLAUTO.jpg)
 
-### 9. User GUI v1.7 About --> Info
+### 2.9 User GUI v1.7 About --> Info
 ![UserGUI 1.7 About/Info](systemPictures/software/9-userGUIv1.7AboutInfo.jpg)
 
-## :: System look (hardware):
-### 1. Complete hardware setup
+## 3. System Look (hardware)
+
+### 3.1 Complete hardware setup
 ![Complete hardware setup](systemPictures/hardware/1-allHardwareCompleteConfiguration.jpg)
 
-### 2. Hardware with LED On
+### 3.2 Hardware with LED On
 ![Hardware with LED On](systemPictures/hardware/2-hardwareWithLEDOn.jpg)
 
-### 3. Testing waterproof sensors
+### 3.3 Testing waterproof sensors
 ![Testing waterproof sensors](systemPictures/hardware/3-hardwareTestingWithWaterproofSensors.jpg)
 
-<b>::: THE REPOSITORY</b>    
+
+## 4. The Repository  
 The repository consists of:
 -   deviceProgram - the Device program (to be implemented on Raspberry Pi)
 -   userGUIprogram - the User GUI program (to be implemented on a remote computer)
@@ -78,7 +91,7 @@ The repository consists of:
 -   bashScriptForRaspberryPi - a bash script required for an automatic loading of the Device Program, without human need, executed at the boot time, after loading a Raspberry Pi's graphical user interface
 
 
-<b>::: FUTURE DEVELOPMENT</b>    
+## 5. Future Development  
 In terms of future development, there are many aspects that can be considered. First of the things might be to calibrate the temperature readings, to make sure the correct values are measured. 
 
 Moreover, the system could incorporate additional sensors, such as humidity, pressure, smoke, and cameras, that would control a whole house and alarm its users by sending a short text message.
@@ -90,7 +103,7 @@ Also, an additional system could be created, to analyse data or link the databas
 Finally, a complete implementation of Strategy and State patterns would be implemented, to make the system more elastic for changes. Therefore, there would not be a very difficult problem to implement other types of sensors in the future.
 
 
-<b>::: HELP</b>  
+## 6. Help   
 To reach a full system functionality the below steps are required:
 -   pre-installed NetBeans 8.1 to open project (preferably)
 -   implementation of a Device Program on Raspberry Pi
