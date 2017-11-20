@@ -114,4 +114,4 @@ To reach a full system functionality the below steps are required:
 </br>
 Please do not hesitate to contact me on the below e-mail if you encounter any problems or need further information.
 
-Contact: lukaszbol[at]yahoo[dot]co[dot]uk 
+Contact: <b>lukaszbol[at]yahoo[dot]co[dot]uk</b> 
