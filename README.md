@@ -111,4 +111,6 @@ To reach a full system functionality the below steps are required:
 -   created database and linked to both programs (manually so far)
 -   complete setup of Raspberry Pi including connected waterproof sensors and added their Device IDs to the Device Program (manually so far)
 
-Please do not hesitate to contact me on lukaszbol[at]yahoo[dot]co[dot]uk if you encounter any problems or need a further guidance.
+Please do not hesitate to contact me on the below e-mail if you encounter any problems or need further information.
+
+Contact: lukaszbol[at]yahoo[dot]co[dot]uk 
