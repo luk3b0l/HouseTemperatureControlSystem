@@ -85,12 +85,13 @@ The system is different to other existing systems, as it:
 The repository consists of:
 -   deviceProgram - the Device program (to be implemented on Raspberry Pi)
 -   userGUIprogram - the User GUI program (to be implemented on a remote computer)
--   system_pictures - pictures of the working system
+-   systemPictures - pictures of the working system
 -   database - a database file (*.sql) for further implementation in your database
--   other - the system's Use Case Diagram, UML diagram, full system overview diagram, Fritzing hardware model (including Raspberry Pi 2 Model B, two DS18B20 waterproof temperature sensors (with a 4.7kΩ resistor), and red LED(with a 330Ω resistor)).
--   bashScriptForRaspberryPi - a bash script required for an automatic loading of the Device Program, without human need, executed at the boot time, after loading a Raspberry Pi's graphical user interface
-
-
+-   other - the system's Use Case Diagram, UML diagram, full system overview diagram, Fritzing hardware model (including Raspberry Pi 2 Model B, two DS18B20 waterproof temperature sensors (with a 4.7kΩ resistor), and red LED(with a 330Ω resistor))
+-   bashScriptForRaspberryPi - a bash script required for an automated loading of the Device Program without human interaction, executed straight after the Raspbian GUI is loaded
+-   externalLibraries - JUnit 4.12 (for the system's testing), MySQL Connector Java 5.1.23 (for JDBC connectivity with a remote MySQL database), JFreeChart 1.0.19 (for displaying data on charts), Pi4J 1.1 (for software-hardware communication with RaspberryPi GPIO, waterproof sensors and the LED) 
+    
+    
 ## 5. Future Development  
 In terms of future development, there are many aspects that can be considered. First of the things might be to calibrate the temperature readings, to make sure the correct values are measured. 
 
@@ -113,5 +114,4 @@ To reach a full system functionality the below steps are required:
    
 </br>
 Please do not hesitate to contact me on the below e-mail if you encounter any problems or need further information.
-
-Contact: <b>lukaszbol[at]yahoo[dot]co[dot]uk</b> 
+Contact: <b>lukaszbol[at]yahoo[dot]co[dot]uk</b>
