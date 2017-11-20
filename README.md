@@ -109,8 +109,9 @@ To reach a full system functionality the below steps are required:
 -   implementation of a Device Program on Raspberry Pi
 -   implementation of a User GUI Program on a PC with pre-installed Java Virtual Machine (JVM)
 -   created database and linked to both programs (manually so far)
--   complete setup of Raspberry Pi including connected waterproof sensors and added their Device IDs to the Device Program (manually so far)
-
+-   complete setup of Raspberry Pi including connected waterproof sensors and added their Device IDs to the Device Program (manually so far)  
+   
+</br>
 Please do not hesitate to contact me on the below e-mail if you encounter any problems or need further information.
 
 Contact: lukaszbol[at]yahoo[dot]co[dot]uk 
