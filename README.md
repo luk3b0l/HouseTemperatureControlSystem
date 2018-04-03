@@ -15,7 +15,8 @@
 
 
 ## 1. Project Description 
-Date of the project: 04/2017   
+<b>Date of the project: 04/2017   </b>
+
 The project tries to solve a problem of not being able to control a house temperature when householders are away.
 
 The project undertaken on controlling a house temperature using Raspberry Pi and Java remotely involves many aspects, from software design, implementation and testing, to hardware components and their assembling, making a physical model, and building a MySQL database for storing and passing retrieved measurements. 
