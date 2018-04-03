@@ -15,7 +15,7 @@
 
 
 ## 1. Project Description 
-Date of the project: 04/2017
+Date of the project: 04/2017   
 The project tries to solve a problem of not being able to control a house temperature when householders are away.
 
 The project undertaken on controlling a house temperature using Raspberry Pi and Java remotely involves many aspects, from software design, implementation and testing, to hardware components and their assembling, making a physical model, and building a MySQL database for storing and passing retrieved measurements. 
@@ -97,11 +97,25 @@ The repository consists of:
 -   externalLibraries - JUnit 4.12 (for the system's testing), MySQL Connector Java 5.1.23 (for JDBC connectivity with a remote MySQL database), JFreeChart 1.0.19 (for displaying data on charts), Pi4J 1.1 (for software-hardware communication with RaspberryPi GPIO, waterproof sensors and the LED) 
     
 ## 5. What Went Wrong
-- the UI and colour patterns could be improved
+- more testing should be done, especially using JUnit 
+- too much code in some of the Java classes
+- lack of temperature calibration on both sensors
+- very fragile hardware wire connection
+- design patterns implemented in the middle of the system development process instead of at the very beginning of the development process, which would save effort of code refactoring in a further development phases
+- the Raspbian should run only with a command line interface (CLI), saving processing power, improving speed and reilability of the system.
 
 
 ## 6. What I Have Learned
--
+- creating GUI in Java without a GUI Builder
+- use of Java libraries (JDBC - for database connection, Pi4J - for software-hardware communication, JUnit - for testing, JFreeChart - for displaying data charts in Java)
+- utilisation of Strategy and State design patterns
+- designing a hardware model using Fritzing hardware design tool
+- how to make a bi-directional software-hardware communication in Java
+- how to design and connect with a database used by two programs simultaneously
+- creating and managing Amazon Web Services EC2 micro instance
+- installation and operations on Raspbian Jessie Linux
+- writing a bash script and implementing it to automate establishing internet connection and start of the program to read sensors' data
+
     
 ## 7. Future Development  
 In terms of future development, there are many aspects that can be considered. First of the things might be to calibrate the temperature readings, to make sure the correct values are measured. 
