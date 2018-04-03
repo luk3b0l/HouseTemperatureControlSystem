@@ -98,13 +98,10 @@ The repository consists of:
     
 ## 5. What Went Wrong
 - the UI and colour patterns could be improved
-- CSS not fully understood
+
 
 ## 6. What I Have Learned
-- declaring variables, writing functions and general syntax in JavaScript
-- JavaScript DOM operations
-- some CSS styling
-- increased HTML knowledge
+-
     
 ## 7. Future Development  
 In terms of future development, there are many aspects that can be considered. First of the things might be to calibrate the temperature readings, to make sure the correct values are measured. 
