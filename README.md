@@ -6,11 +6,16 @@
 2. System Look (software)  
 3. System Look (hardware)  
 4. The Repository  
-5. Future Development  
-6. Help  
+5. What Went Wrong
+6. What I Have Learned
+7. Future Development  
+8. Help  
+
+
 
 
 ## 1. Project Description 
+Date of the project: 04/2017
 The project tries to solve a problem of not being able to control a house temperature when householders are away.
 
 The project undertaken on controlling a house temperature using Raspberry Pi and Java remotely involves many aspects, from software design, implementation and testing, to hardware components and their assembling, making a physical model, and building a MySQL database for storing and passing retrieved measurements. 
@@ -91,8 +96,17 @@ The repository consists of:
 -   bashScriptForRaspberryPi - a bash script required for an automated loading of the Device Program without human interaction, executed straight after the Raspbian GUI is loaded
 -   externalLibraries - JUnit 4.12 (for the system's testing), MySQL Connector Java 5.1.23 (for JDBC connectivity with a remote MySQL database), JFreeChart 1.0.19 (for displaying data on charts), Pi4J 1.1 (for software-hardware communication with RaspberryPi GPIO, waterproof sensors and the LED) 
     
+## 5. What Went Wrong
+- the UI and colour patterns could be improved
+- CSS not fully understood
+
+## 6. What I Have Learned
+- declaring variables, writing functions and general syntax in JavaScript
+- JavaScript DOM operations
+- some CSS styling
+- increased HTML knowledge
     
-## 5. Future Development  
+## 7. Future Development  
 In terms of future development, there are many aspects that can be considered. First of the things might be to calibrate the temperature readings, to make sure the correct values are measured. 
 
 Moreover, the system could incorporate additional sensors, such as humidity, pressure, smoke, and cameras, that would control a whole house and alarm its users by sending a short text message.
@@ -104,7 +118,7 @@ Also, an additional system could be created, to analyse data or link the databas
 Finally, a complete implementation of Strategy and State patterns would be implemented, to make the system more elastic for changes. Therefore, there would not be a very difficult problem to implement other types of sensors in the future.
 
 
-## 6. Help   
+## 8. Help   
 To reach a full system functionality the below steps are required:
 -   pre-installed NetBeans 8.1 to open project (preferably)
 -   implementation of a Device Program on Raspberry Pi
